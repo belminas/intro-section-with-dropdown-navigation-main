@@ -1,0 +1,90 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root{
+    --Almost-White: hsl(0, 0%, 98%);
+    --Medium-Gray: hsl(0, 0%, 41%);
+    --Almost-Black: hsl(0, 0%, 8%);
+}
+
+body{
+    display: grid;
+    place-items: start center;
+    margin-inline-start: 10%;
+    margin-top: 2%;
+    margin-inline-end: 10%;
+    background-color: var(--Almost-White);
+}
+.big-text{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1;
+    margin-inline-end: 10%;
+}
+.small-text{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    margin-inline-end: 10%;
+}
+.btn-main{
+    background-color: var(--Almost-Black);
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 25%;
+}
+.img-logo{
+    max-width: 62px;
+}
+.logo{
+    margin-inline-end: 10%;
+}
+.btn-nav-bar{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--Medium-Gray);
+}
+.dropdown-toggle, .nav-link{
+    color: var(--Medium-Gray);
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.dropdown-item{
+    color: var(--Medium-Gray);
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+}
+.dropdown-item-img{
+    margin-right: 10%;
+}
+.nav{
+    margin-bottom: 10%;
+    border: none!important; 
+}
+#nav-begining{
+    margin-inline-start: 5%;
+}
+#logo-image{
+    max-height: 30px;
+    margin-top: 1.5%;
+}
+#btn-sep{
+    margin-inline-start: 8%;
+}
+.btn-nav-bar:hover{
+    color: var(--Almost-Black);
+}
+.nav-link:hover{
+    color:var(--Almost-Black) ;
+}
+.dropdown-toggle:hover{
+    color:var(--Almost-Black) ;
+}
